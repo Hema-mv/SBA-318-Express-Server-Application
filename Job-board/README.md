@@ -30,11 +30,10 @@ This is a simple job board application built with Express.js. It allows users to
 
 3.Start the server:
 
-nodemon index.js
-- Open your browser and navigate to http://localhost:3000/jobs to view the job applications.
-- Open your browser and navigate to http://localhost:3000/applications to view the job applications.
-- Open your browser and navigate to http://localhost:3000/users to view the useres.
-
+  nodemon index.js
+  - Open your browser and navigate to http://localhost:3000/jobs to view the job applications.
+  - Open your browser and navigate to http://localhost:3000/applications to view the job applications.
+  - Open your browser and navigate to http://localhost:3000/users to view the useres.
 
 
 4. Routes
