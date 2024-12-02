@@ -23,12 +23,12 @@ This is a simple job board application built with Express.js. It allows users to
  
    git clone https://github.com/your-username/job-board.git
 
-2,Install the dependencies
+2. Install the dependencies
  1. npm init -y
  2. npm i express
  3. nom i method-override
 
-2.Start the server:
+3.Start the server:
 
 nodemon index.js
 Open your browser and navigate to http://localhost:3000/jobs to view the job applications.
@@ -37,7 +37,7 @@ Open your browser and navigate to http://localhost:3000/users to view the useres
 
 
 
-3. Routes
+4. Routes
 Users Routes
 GET /users: View all users
 
