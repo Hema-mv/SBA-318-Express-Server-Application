@@ -4,17 +4,18 @@ This is a simple job board application built with Express.js. It allows users to
 
 ## Features
 
-- View a list of job applications
-- Add new job applications
-- Manage existing job applications
+- View a list of users
+- Add new User
+- Manage existing User
+- Delete user
 
 - View a list of job applications
-- Add new job applications
-- Manage existing job applications
+- Add new job application
+- Delete job application
 
-- View a list of job applications
-- Add new job applications
-- Manage existing job applications
+- View a list of jobs
+- Add new job
+- Manage existing job
 
 ## Installation
 
