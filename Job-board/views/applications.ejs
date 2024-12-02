@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Applications</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+          <li><a href="/users">Users</a></li>
+          <li><a href="/jobs">Jobs</a></li>
+          <li><a href="/applications">Applications</a></li>
+        </ul>
+      </nav>
+    <h1>Applications</h1>
+    <ul>
+        <% applications.forEach(application => { %>
+            <li><strong><%= application.jobTitle %></strong>: <%= application.applicantName %></li>
+        <% }) %>
+    </ul>
+    <form method="post" action="/applications">
+        <label for="jobTitle">Job Title:</label>
+        <input type="text" id="jobTitle" name="jobTitle" required><br>
+        <label for="applicantName">Applicant Name:</label>
+        <input type="text" id="applicantName" name="applicantName" required><br>
+        <button type="submit">Submit Application</button>
+    </form>
+</body>
+</html>
