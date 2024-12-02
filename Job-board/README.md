@@ -36,7 +36,7 @@ This is a simple job board application built with Express.js. It allows users to
   - Open your browser and navigate to http://localhost:3000/users to view the useres.
 
 
-3.Routes
+4.Routes
 Users Routes
 GET /users: View all users
 
